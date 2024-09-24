@@ -266,7 +266,7 @@ export default function KalkulatorKompos({ navigation }) {
                     // alignItems: 'center',
                     width: '80%',
                   }}>
-                    <Text style={styles.input2}>{BERAT[index] > 0 ? parseFloat(BERAT[index]).toFixed(0) : '...'}</Text>
+                    <Text style={styles.input2}>{BERAT[index] > 0 ? parseFloat(BERAT[index]).toFixed(0) : '0'}</Text>
                   </View>
 
                 </View>

@@ -21,7 +21,7 @@ import axios from 'axios';
 import moment from 'moment';
 import { useToast } from 'react-native-toast-notifications';
 import MyLoading from '../../components/MyLoading';
-import MyCarouser from '../../components/MyCarouser';
+
 import { Icon } from 'react-native-elements';
 
 

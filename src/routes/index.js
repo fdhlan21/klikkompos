@@ -69,7 +69,7 @@ import { colors } from '../utils';
 import { Icon } from 'react-native-elements';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomNavigator } from '../components';
-import TambahTekananDarah from '../pages/TekananDarah/add';
+
 
 
 const Tab = createBottomTabNavigator();
@@ -97,42 +97,6 @@ export default function Router() {
       />
 
 
-
-      <Stack.Screen
-        name="Login"
-        component={Login}
-        options={{
-          headerShown: false,
-          // headerTitle: 'Detail',
-          headerStyle: {
-            backgroundColor: colors.primary,
-          },
-          headerTintColor: '#fff',
-        }}
-      />
-
-
-      <Stack.Screen
-        name="Register"
-        component={Register}
-        options={{
-          headerShown: false,
-          headerStyle: {
-            backgroundColor: colors.primary,
-          },
-          headerTintColor: '#fff',
-        }}
-      />
-
-
-<Stack.Screen
-        name="MulaiPage"
-        component={MulaiPage}
-        options={{
-          headerShown: false,
-
-        }}
-      />
 
 
 
@@ -164,212 +128,7 @@ export default function Router() {
         }}
       />
 
-<Stack.Screen
-        name="TambahHasilTekananDarah"
-        component={TambahTekananDarah}
-        options={{
-          headerShown: false,
 
-        }}
-      />
-
-<Stack.Screen
-        name="SubRiwayatPemeriksaanLaboratorium"
-        component={SubRiwayatPemeriksaanLaboratorium}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="RiwayatPemeriksaanRadiologis"
-        component={RiwayatPemeriksaanRadiologis}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="Gula"
-        component={Gula}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-      
-<Stack.Screen
-        name="ProfilLupid"
-        component={ProfilLipid}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-      
-
-      <Stack.Screen
-        name="LainLain"
-        component={LainLain}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-      
-
-      <Stack.Screen
-        name="Riwayat"
-        component={Riwayat}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-      
-      <Stack.Screen
-        name="RiwayatObat"
-        component={RiwayatObat}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="EKG"
-        component={EKG}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="TentangAplikasi"
-        component={TentangAplikasi}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="TrisemesterII1"
-        component={TrisemesterII1}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="TrisemesterII2"
-        component={TrisemesterII2}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="TrisemesterIII1"
-        component={TrisemesterIII1}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="TrisemesterIII2"
-        component={TrisemesterIII2}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="TrisemesterIII3"
-        component={TrisemesterIII3}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="IbuBersalin"
-        component={IbuBersalin}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="IbuNifas"
-        component={IbuNifas}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="IbuNifasKF"
-        component={IbuNifasKF}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-      <Stack.Screen
-        name="VideoMateri"
-        component={VideoMateri}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="TanyaJawab"
-        component={TanyaJawab}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-<Stack.Screen
-        name="Artikel"
-        component={Artikel}
-        options={{
-          headerShown: false,
-
-        }}
-      />
-
-
-<Stack.Screen
-        name="Kuesioner"
-        component={Kuesioner}
-        options={{
-          headerShown: false,
-
-        }}
-      />
 
 
 
@@ -397,23 +156,7 @@ export default function Router() {
 
 
 
-      <Stack.Screen
-        name="StatusGiziHasil"
-        component={StatusGiziHasil}
-        options={{
-          headerShown: false,
-        }}
-      />
 
-
-
-      <Stack.Screen
-        name="StatusGizi"
-        component={StatusGizi}
-        options={{
-          headerShown: false,
-        }}
-      />
 
 
 

@@ -89,7 +89,7 @@ export default function Petunjuk({ navigation }) {
                 textAlign: 'justify',
                 color: colors.coklat
               }}>
-                4. Jika hasil C/N ratio di atas 20-40 maka tambahkan bahan dengan C/N ratio rendah atau kurangi bahan dengan C/N ratio tinggi
+                4. Jika hasil C/N ratio di bawah 20-40 maka tambahkan bahan dengan C/N ratio tinggi, atau kurangi bahan dengan C/N ratio rendah
               </Text>
 
               <Text style={{
@@ -97,7 +97,7 @@ export default function Petunjuk({ navigation }) {
                 textAlign: 'justify',
                 color: colors.coklat
               }}>
-                5. Jika hasil kelembapan di bawah 40-60% maka tambahkan bahan dengan kelembapan tinggi, atau kurangi bahan dengan kelembapan rendah
+                5. Jika hasil C/N ratio di atas 20-40 maka tambahkan bahan dengan C/N ratio rendah atau kurangi bahan dengan C/N ratio tinggi
               </Text>
 
               <Text style={{
@@ -105,7 +105,7 @@ export default function Petunjuk({ navigation }) {
                 textAlign: 'justify',
                 color: colors.coklat
               }}>
-                6. Jika hasil kelembapan di atas 40-60% maka tambahkan bahan dengan kelembapan rendah atau dikurangi bahan dengan kelembapan tinggi
+                6. Jika hasil kelembapan di bawah 40-60% maka tambahkan bahan dengan    kelembapan tinggi, atau kurangi bahan dengan kelembapan rendah
               </Text>
 
               <Text style={{
@@ -113,7 +113,7 @@ export default function Petunjuk({ navigation }) {
                 textAlign: 'justify',
                 color: colors.coklat
               }}>
-                7. Setelah di campur semua bahan dan dedak, tambahkan dekomposer
+                7. Jika hasil kelembapan di atas 40-60% maka tambahkan bahan dengan kelembapan rendah atau dikurangi bahan dengan kelembapan tinggi
               </Text>
 
               <Text style={{
@@ -121,7 +121,17 @@ export default function Petunjuk({ navigation }) {
                 textAlign: 'justify',
                 color: colors.coklat
               }}>
-                8. Proses pengomposan dilakukan secara tertutup, dan lakukan pembalikan 1 kali seminggu. Suhu panas saat proses pengomposan menunjukkan dekomposisi berjalan baik
+                8. Setelah di campur semua bahan dan dedak, tambahkan dekomposer
+
+              </Text>
+
+              
+              <Text style={{
+                fontFamily: fonts.primary[500],
+                textAlign: 'justify',
+                color: colors.coklat
+              }}>
+                9. Proses pengomposan dilakukan secara tertutup, dan lakukan pembalikan 1 kali seminggu. Suhu panas saat proses pengomposan menunjukkan dekomposisi berjalan baik
 
               </Text>
 
